@@ -3,7 +3,7 @@ title: "Membuat Spinner Pada Projek Android Studio"
 date: 2020-02-10T16:43:25+07:00
 draft: false
 author: "Ahmad Sufyan"
-categories: [code]
+categories: [code, android]
 ---
 
 Kita akan membuat spinner menggunakan layout XML dan juga memberikan aksi
