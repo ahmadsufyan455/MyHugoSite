@@ -1,7 +1,7 @@
 baseURL = "/"
 title = "Ahmad Sufyan"
 theme = "hugo-notepadium"
-# copyright = "©2020 Ahmad Sufyan"
+copyright = "©2020 Ahmad Sufyan"
 
 languageCode = "en-us"
 hasCJKLanguage = true
