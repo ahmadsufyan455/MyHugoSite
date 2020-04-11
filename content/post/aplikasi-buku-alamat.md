@@ -1,7 +1,7 @@
 ---
 title: "Membuat Aplikasi Buku Alamat Menggunakan Angular & Codeigniter"
 date: 2020-04-11T21:13:15+07:00
-draft: true
+draft: false
 categories: [code]
 ---
 Pada kesempatan kali ini saya akan mendokumentasikan **cara membuat aplikasi buku alamat menggunakan angular dan codeigniter**. Aplikasi yang akan dibuat ini adalah aplikasi yang memuat CRUD (Create, Read, Update, Delete). Skenarionya adalah kita akan menampilkan data alamat pada browser yang mana data tersebut diambil dari local server dengan bantuan aplikasi PHP. Tanpa berlama-lama lagi mari kita mulai.<!--more-->
