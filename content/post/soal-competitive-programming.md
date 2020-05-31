@@ -71,7 +71,7 @@ Hal pertama yang harus dilakukan adalah menganalisis narasi masalah yang diberik
 
 **Perintahnya adalah tampilkan nilai n1, n2, n3, dan n4**
 
-#### Menyusun algoritma
+#### 2. Menyusun algoritma
 
 Algoritma adalah langkah-langkah untuk menyelesaikan sesuatu. Jadi sangat penting bagi kita untuk membuat algoritma atau langkah-langkahnya terlebih dahulu sebelum kita masuk ke kodingan. Algoritma juga akan mempermudah kita ketika kita mengkonversi permasalah ke dalam sebuah kode program.
 
@@ -90,7 +90,7 @@ Jadi setelah di analisis kita bisa menyusun algoritma seperti berikut.
 Oke sangat simpel bukan ?
 Oiya untuk menentukan nilai n1 kita bisa menggunakan rumus matematika sesuai kebutuhan.
 
-#### Membuat kode program
+#### 3. Membuat kode program
 
 Setelah kita buat algoritmanya, akhirnya sekarang kita akan membuat sebuah kode program untuk memecahkan masalah pada soal diatas. Berikut ini kode program menggunakan bahasa kotlin.
 
@@ -113,7 +113,7 @@ fun main() {
 }
 ```
 
-#### Jalankan kode program
+#### 4. Jalankan kode program
 
 Setelah kita buat kode programnya, selanjutnya jalankan kode program tersebut. Kemudian inputkan angka sesuai example input dan cocokkan dengan hasilnya. Apabila sudah sesuai dengan hasil maka kita berhasil dalam membuat solusi untuk permasalahan tersebut. 
 
