@@ -54,10 +54,10 @@ url = "https://www.instagram.com/fyann__/"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Coretan"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "coretan"
+  url = "/categories/coretan/"
 
   [[menu.main]]
   name = "Code"
