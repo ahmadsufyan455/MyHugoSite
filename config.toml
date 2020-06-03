@@ -1,55 +1,60 @@
 baseURL = "/"
-title = "Ahmad Sufyan"
-theme = "hugo-notepadium"
-copyright = "©2020 Ahmad Sufyan"
-
-languageCode = "en-us"
-hasCJKLanguage = true
-
-enableRobotsTXT = true
+languageCode = "en"
+DefaultContentLanguage = "id"
+title = "Kotlin enthusiast"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
 
 # Enable Disqus
-#disqusShortname = "XXX"
+#disqusShortname = ""
 
-#Google Analytics
+# Google Analytics
 googleAnalytics = "UA-163996782-1"
 
-[markup.highlight]
-codeFences = true
-noClasses = false
-
-[markup.goldmark.renderer]
-unsafe = true  # enable raw HTML in Markdown
-
 [params]
-style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
-logo = ""  # if you have a logo png
-slogan = "All About My Knowledge"
-license = ""  # CC License
+title = "I'm Ahmad Sufyan"
+author = "Ahmad Sufyan"
+description = "All about my knowledge"
+profilePicture = "uploads/fyan.jpg"
+keywords = "Ahmad Sufyan"
+favicon = "favicons/"
+customCss = []
+mainSections = ["post"]
 
-[params.comments]
-enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
-
+## Math settings
 [params.math]
-enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
-use = "katex"  # option: "katex", "mathjax". default: "katex"
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
 
-[params.syntax]
-use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "dracula"
-darkTheme = "xcode-dark"  # apply this theme in dark mode
+## Social links
+[[params.socialIcons]]
+icon = "fa-youtube"
+title = "Youtube"
+url = "https://www.youtube.com/channel/UCw-os_0NNQy-4y-z4qCEPSA"
 
-[params.nav]
-showCategories = false       # /categories/
-showTags = false             # /tags/
-
-# custom navigation items
-
-[[params.nav.custom]]
-title = "Code"
-url = "/categories/code"
-
-[[params.nav.custom]]
-title = "Github"
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
 url = "https://github.com/ahmadsufyan455"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/fyann__/"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
