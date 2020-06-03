@@ -119,10 +119,10 @@ Setelah kita buat kode programnya, selanjutnya jalankan kode program tersebut. K
 
 berikut hasilnya :
 
-<img src="/uploads/result.JPG" width="50%" style="display: block; margin: auto;"><br>
+![result](/uploads/result.JPG "result")
 
 selanjutnya kita bisa submit kode program tersebut ke platform tempat competitive programming di adakan, seperti codeforces dan hasilnya akan di accepted kalau sudah sesuai.
 
-<img src="/uploads/colorevolution.JPG" style="display: block; margin: auto;"><br>
+![colorevolution](/uploads/colorevolution.JPG "color revolution")
 
 Oke friend sekian dulu, nanti kita lanjutkan pembahasan mengenai soal-soal competitive programming lainnya, semoga bermanfaat.

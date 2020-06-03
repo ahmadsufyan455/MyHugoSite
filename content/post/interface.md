@@ -55,4 +55,3 @@ class Programmer(override var produktif: Boolean) : IKoding {
 ```
 
 Kita bisa menaruh kode yang akan di implementasikan pada masing-masing method yang telah di `override`.
-

@@ -91,8 +91,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 }
 ```
 
-<img src="/uploads/spinner.png" width="40%" style="display: block; margin: auto;">
-<br>
+![spinner](/uploads/spinner.png "spinner")
+
 Happy coding :)
-
-

@@ -8,4 +8,3 @@ draft: false
 
 This is my first post on new site built with Hugo,
 i want to share all about my knowledge in this site.
-

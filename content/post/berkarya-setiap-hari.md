@@ -26,4 +26,3 @@ So, jangan menunggu hari esok untuk berkarya\
 Karena hari yang engkau tunggu tidak akan pernah datang
 
 **Keep learning and stay awesome** :)
-

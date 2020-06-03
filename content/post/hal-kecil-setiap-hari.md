@@ -16,4 +16,3 @@ Namun itu semua dibangun dari sebuah proses kecil yang dilakukan setiap hari. Ta
 Jadi sangat penting untuk memulai hal yang kecil setiap hari. Jangan takut untuk memulai, mungkin kita saat itu tidak akan melihat efek apapun dari apa yang kita kerjakan dan jika orang bertanya apa yang akan kamu lakukan hari ini, mungkin saja kita bisa menjawab saya akan menulis satu artikel hari ini, dan orang mungkin tidak merasa wah dengan kita dan menganggap itu biasa-biasa saja.
 
 Namun jika kita terus melakukan hal kecil tersebut setiap hari, maka suatu saat nanti kita akan merasakan hasilnya dan sebenarnya yang mau saya katakan disini saat kita berkembang dan melakukan hal-hal kecil setiap hari, itu sebenarnya hasil yang akan kita dapatkan.
-
