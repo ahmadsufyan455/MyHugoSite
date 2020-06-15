@@ -1,7 +1,7 @@
 ---
 title: "Migrasi Ke Linux"
 date: 2020-06-15T21:27:06+07:00
-draft: true
+draft: false
 categories: [Ubuntu, OS, Linux]
 ---
 
