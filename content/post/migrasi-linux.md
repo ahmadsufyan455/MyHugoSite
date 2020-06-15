@@ -59,6 +59,8 @@ Output : Y
 
 #### Install and Uninstall KDE
 
+Btw kde ini adalah desktop environment punya kubuntu, nah kalo di ubuntu namanya gnome.
+
 ```
 $ sudo apt-get install kde-full
 $ sudo apt-get remove --auto-remove kde-full
@@ -104,7 +106,7 @@ Masuk ke console **ctrl+alt+f2** dan ketik perintah:
 $ systemctl restart gdm
 ```
 
-#### Connect ke wifi lewat consolse
+#### Connect ke wifi lewat console
 
 ```
 $ nmcli c up <SavedWifiConn>
