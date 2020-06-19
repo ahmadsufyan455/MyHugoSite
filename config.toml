@@ -91,5 +91,5 @@ themeColor = "#1a6996"
   lineNos = false
   lineNumbersInTable = true
   noClasses = true
-  style = "monokai"
+  style = "dracula"
   tabWidth = 4
