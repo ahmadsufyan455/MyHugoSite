@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en"
 title = "Ahmad Sufyan"
-theme = "soho"
+theme = "anatole"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 summarylength = 10
