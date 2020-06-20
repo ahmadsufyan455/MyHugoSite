@@ -118,4 +118,16 @@ $ nmcli c up <SavedWifiConn>
 $ reboot
 ```
 
+#### Install ubuntu software center
+
+```
+$ sudo apt-get install gnome-software
+```
+
+#### Rekomendasi aplikasi screen & editing
+
+```
+1. Simple screen recorder (Record layar)
+2. Kdenlive (Editing video)
+
 Next bakal di update lagi apabila ada problem dan ilmu baru.
