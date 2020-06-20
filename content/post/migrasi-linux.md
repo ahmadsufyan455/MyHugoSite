@@ -129,5 +129,6 @@ $ sudo apt-get install gnome-software
 ```
 1. Simple screen recorder (Record layar)
 2. Kdenlive (Editing video)
+```
 
 Next bakal di update lagi apabila ada problem dan ilmu baru.
