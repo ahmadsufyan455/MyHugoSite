@@ -64,6 +64,12 @@ themeColor = "#1a6996"
   url = "/categories/code/"
 
   [[menu.main]]
+  name = "Linux"
+  weight = 200
+  identifier = "linux"
+  url = "/categories/linux/"
+
+  [[menu.main]]
   name = "Coretan"
   weight = 200
   identifier = "coretan"

@@ -2,7 +2,7 @@
 title: "Migrasi Ke Linux"
 date: 2020-06-15T21:27:06+07:00
 draft: false
-categories: [Ubuntu, OS, Linux]
+categories: [ubuntu, OS, linux]
 ---
 
 Selamat datang di dunia **Open Source**. Beberapa hari yang lalu saya memutuskan untuk beralih dari sistem operasi windows 10 ke ubuntu 20.04 LTS dengan alasan yang sangat simpel yaitu ingin belajar otak-atik pake terminal dan bisa bebas dari aplikasi crack / pak tani.

@@ -2,7 +2,7 @@
 title: "Kotlin Heroes Episode 4 : Problem A Color Revolution"
 date: 2020-05-31T12:34:48+07:00
 draft: false
-categories: [code, Kotlin, CompetitiveProgramming]
+categories: [code, Kotlin, competitiveProgramming]
 ---
 
 Halo friend, pada kesempatan kali ini saya akan membahas mengenai soal competitive programming.<!--more-->
