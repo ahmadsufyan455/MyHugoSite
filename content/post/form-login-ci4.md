@@ -57,8 +57,11 @@ public $default = [
 Yang perlu di ubah pada kode diatas adalah:
 
 hostname : isi dengan localhost/127.0.0.1
+
 username : isi dengan username database, biasanya root
+
 password : isi dengan password database, biasanya kosong
+
 database : isi dengan nama database
 
 #### 3. Membuat model
@@ -281,6 +284,6 @@ Kemudian bila user memasukkan email atau password salah maka akan muncul warning
 
 Dan apabila user berhasil login makan akan redirect ke halaman user
  
-![form](/formloginci4/3.png)
+![form](/formloginci4/2.png)
 
 Sekian dan terima kasih.
