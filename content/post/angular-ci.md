@@ -892,4 +892,4 @@ Kita melakukan perulangan di dalam list item tersebut sehingga hasilnya menjadi 
 
 ![todo](/todo/10.png)
 
-### 17. Lagi stuck -_- istirahat dulu fren biar fresh :)
+Source code : https://github.com/ahmadsufyan455/todoApp-angularCI
