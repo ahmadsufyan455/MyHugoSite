@@ -892,4 +892,191 @@ Kita melakukan perulangan di dalam list item tersebut sehingga hasilnya menjadi 
 
 ![todo](/todo/10.png)
 
+### 17. Membuat fungsi insert data
+
+Buka file `api.service.ts` kemudian tambahkan fungsi `simpan()` dengan method http post untuk membuat data baru, sehingga fungsinya seperti berikut.
+
+```typescript
+simpan(data: any) {
+    console.log(data)
+    return this.http.post(this.apiUrl, data)
+  }
+```
+
+Fungsi diatas akan memanggil method `create` yang sudah dibuat pada codeigniter 4 karena menggunakan `ResourceController` sebagai parent dari controller dalam pembuatan rest. Ada juga method `show`, `edit`, dan `delete`.
+
+Lalu buka `tambah-data.component.ts dan sesuaikan kodenya menjadi seperti berikut.
+
+```typescript
+import { Component, OnInit, Inject } from '@angular/core';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { ApiService } from '../api.service';
+
+@Component({
+  selector: 'app-tambah-data',
+  templateUrl: './tambah-data.component.html',
+  styleUrls: ['./tambah-data.component.css']
+})
+export class TambahDataComponent implements OnInit {
+
+  data: any = {}
+  constructor(
+    public api: ApiService,
+    public dialogRef: MatDialogRef<TambahDataComponent>,
+    @Inject(MAT_DIALOG_DATA) public itemData: any
+  ) {
+    if (itemData != null) {
+      this.data = itemData;
+    }
+  }
+
+  ngOnInit(): void {
+  }
+
+  insert(data) {
+      this.api.simpan(data).subscribe(res => {
+        this.dialogRef.close(true)
+      })
+  }
+}
+```
+
+Saya menambahkan fungsi `insert` untuk memanggil api dan melakukan penambahan data sesaui method pada api.
+
+Sekarang buka `tambah-data.component.html` kemudian tambahkan `ngModel` dan juga `onclick` sehingga menjadi seperti ini.
+
+```html
+<h3 mat-dialog-title>Add New Activities</h3>
+<div mat-dialog-content>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Title</mat-label>
+    <input matInput [(ngModel)]="data.judul">
+  </mat-form-field>
+
+  <mat-form-field style="width: 100%;">
+    <mat-label>Description</mat-label>
+    <input matInput [(ngModel)]="data.deskripsi">
+  </mat-form-field>
+
+  <mat-form-field style="width: 100%;">
+    <mat-label>Deadline</mat-label>
+    <input matInput [(ngModel)]="data.jadwal_selesai">
+  </mat-form-field>
+</div>
+<mat-dialog-actions>
+  <span class="spacer"></span>
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-raised-button color="primary" [mat-dialog-close]="true" (click)="insert(data)">Save</button>
+</mat-dialog-actions>
+```
+
+### 18. Membuat fungsi edit data
+
+Buka kembali file `api.service.ts` dan tambahkan fungsi `ubah` seperti berikut.
+
+```typescript
+ubah(data) {
+    return this.http.put(this.apiUrl + '/' + data.id, data)
+  }
+```
+
+Fungsi diatas akan melakukan edit data sesuai dengan id data dan kita menggunakan method `put`.
+
+Lalu tambahkan fungsi `editTodo` pada file `todo.component.ts` untuk memunculkan dialog edit.
+
+```typescript
+//fungsi untuk menampilkan dialog edit data
+  editTodo(data) {
+    const dialogRef = this.dialog.open(TambahDataComponent, {
+      width: '450px',
+      data: data
+    });
+    dialogRef.afterClosed().subscribe(res => {
+      this.getData() // menampilkan data setelah diperbarui
+    });
+  }
+```
+
+Dan jangan lupa di `todo.component.html` tambahkan trigger `click` pada button edit seperti ini.
+
+```html
+<button class="btn-edit" mat-raised-button color="accent" (click)="editTodo(item)">Edit</button>
+```
+
+Selanjutnya buka `tambah-data.component.ts` dan sesuaikan fungsi `insert` menjadi seperti berikut.
+
+```typescript
+insert(data) {
+    if (data.id == undefined) {
+      this.api.simpan(data).subscribe(res => {
+        this.dialogRef.close(true)
+      })
+    } else {
+      this.api.ubah(data).subscribe(res => {
+        this.dialogRef.close(true)
+      })
+    }
+  }
+```
+
+Oke jadi ketika id nya kosong maka insert data baru, namun ketika idnya ada maka akan di update sesaui id.
+
+### 19. Membuat fungsi hapus data
+
+Buka lagi file `api.service.ts` dan tambahkan fungs `hapus` dengan method delete by id seperti berikut.
+
+```typescript
+hapus(id) {
+    return this.http.delete(this.apiUrl + '/' + id)
+  }
+```
+
+Terakhir di `todo.component.ts` tambahkan fungsi `hapusTodo` dengan paramter id sehingga seperti ini.
+
+```typescript
+//fungsi untuk menghapus data
+  hapusTodo(id) {
+    console.log('data dihapus')
+    this.api.hapus(id).subscribe(res => {
+      this.getData()
+    })
+  }
+```
+
+Dan tambahkan trigger `onclick` pada button hapus di file `todo.component.html`
+
+```html
+<button class="btn-selesai" mat-raised-button color="warn" (click)="hapusTodo(item.id)">Done</button>
+```
+
+Kode diatas berfungsi untuk menghapus data berdasarkan id nya.
+
+### 20. Penutup
+
+Selamat kita sudah menyelesaikan project membuat aplikasi menggunakan angular sebagai front end dan codeigniter 4 sebagai back end. Tetap semangat, stay coding and stay awesome.
+
+Untuk hasilnya seperti berikut.
+
+Halaman login :
+
+![todo](/todo/11.png)
+
+Ketika login berhasil masuk ke halaman todo yang membuat CRUD :
+
+![todo](/todo/12.png)
+
+Tambah data :
+
+![todo](/todo/13.png)
+
+![todo](/todo/14.png)
+
+Edit data :
+
+![todo](/todo/15.png)
+
+Hapus data :
+
+![todo](/todo/16.png)
+
 Source code : https://github.com/ahmadsufyan455/todoApp-angularCI
