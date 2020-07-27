@@ -424,6 +424,8 @@ Fungsi `buatKegiatan()` berfungsi untuk menampilkan dialog tambah-data yang suda
 
 ![todo](/todo/5.png)
 
+> Tips : Jangan panik ketika ketemu error, tetap tenang, cari solusinya, di googling banyak tinggal ketik errornya nanti muncul tuh stackoverflow atau forum angular/Ci. Error mengajarkan kita untuk belajar memecahkan masalah.
+
 # Bagian 2 membuat back end (codeigniter 4)
 
 Pada bagian yang kedua ini saya akan membuat bagian back end dari aplikasi yang akan memuat CRUD. Saya akan menggunakan codeigniter 4 sebagai back end. Oke let's cekidot..
@@ -1078,5 +1080,7 @@ Edit data :
 Hapus data :
 
 ![todo](/todo/16.png)
+
+> "The only way to learn a new programming language is by writing programs in it." 
 
 Source code : https://github.com/ahmadsufyan455/todoApp-angularCI
