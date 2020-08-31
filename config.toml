@@ -16,7 +16,7 @@ googleAnalytics = "UA-163996782-1"
 
 [params]
 title = "Ahmad Sufyan"
-description = "' Perjalanan Belajar '"
+description = "Perjalanan Belajar"
 # gravatar = "soho@example.com"
 images = ["avatar/fyn.jpg"]
 profilePicture = "avatar/fyn.jpg"
