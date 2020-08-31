@@ -44,6 +44,11 @@ themeColor = "#1a6996"
   title = "Instagram"
   url = "https://www.instagram.com/fyann__/"
 
+  [[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/ahmadsufyan455/"
+  
 [taxonomies]
   series = "series"
   category = "categories"
