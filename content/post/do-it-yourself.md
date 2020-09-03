@@ -2,7 +2,7 @@
 title: "Do It Yourself"
 description: "Do it yourself, explore creativity"
 date: 2020-09-03T18:16:05+07:00
-draft: true
+draft: false
 categories: [coretan]
 ---
 
