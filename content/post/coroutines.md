@@ -33,7 +33,7 @@ implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0"
 Untuk memulai sebuah coroutines kita bisa menulis kode
 
 ```java
-GlobalScope.launch { // do asynchronous  }
+GlobalScope.launch { /*do asynchronous*/  }
 ```
 
 *GlobalScope* berarti kita mengatur lifecycle dari coroutines mengikuti lifecycle dari aplikasi dan *launch* berarti kita memanggil proses tanpa ada nilai kembalian. Kemudian di dalam block kurung kurawal kita bisa menjalankan sebuah proses secara asynchronous.
