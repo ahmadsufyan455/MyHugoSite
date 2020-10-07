@@ -5,7 +5,7 @@ draft: false
 categories: [coretan]
 ---
 
-![proses](/uploads/proses.jpg)
+{{< figure src="/uploads/proses.jpg" width="100%" >}}
 
 Ketika kita ingin mencapai sesuatu yang kita inginkan, semuanya harus dilewati dengan proses. Penting sekali dan perlu kita ingat bahwa tidak ada yang instan dalam menggapai keinginan tersebut.
 

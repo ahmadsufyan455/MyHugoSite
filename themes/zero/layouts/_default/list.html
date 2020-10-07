@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h4 class="homePage">
+   <u><a href="/">/Ahmadsufyan.my.id</a></u>
+</h4>
+<h1 class="pt-1">{{ .Title }}</h1>
+
+<ul>
+   {{ range .Pages }}
+   <li>
+      <a href="{{.Permalink}}"> {{.Title}}</a>
+   </li>
+   {{ end }}
+</ul>
+
+{{ end }}

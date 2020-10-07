@@ -8,7 +8,7 @@ categories: [code, android, kotlin]
 
 Model View ViewModel atau lebih dikenal dengan MVVM merupakan sebuah design pattern yang direkomendasikan oleh google untuk mengembangkan aplikasi android. MVVM merupakan bagian dari android jetpack atau architecture component.
 
-![mvvm](/uploads/mvvm.png)
+{{< figure src="/uploads/mvvm.png" width="100%" >}}
 
 MVVM terdiri dari komponen Model, View, dan ViewModel.
 
@@ -20,7 +20,7 @@ MVVM terdiri dari komponen Model, View, dan ViewModel.
 
 Berikut adalah lifecycle dari ViewModel.
 
-![mvvm](/uploads/mvvm-lifecycle.jpg)
+{{< figure src="/uploads/mvvm-lifecycle.jpg" width="100%" >}}
 
 ViewModel akan tetap dipertahankan ketika activity pertamakali dijalankan sampai activity tersebut dihancurkan atau aplikasinya ditutup sehingga datanya tetap terjaga dari awal hingga akhir.
 

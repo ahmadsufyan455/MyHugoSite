@@ -24,21 +24,21 @@ Untuk membuat front end kita mulai dari membuat beberapa halaman/component pada 
 
 Komponen yang kita buat ini digunakan sebagai halaman utama aplikasi, untuk membuatnya masuk ke folder project, kemudian ketikkan perintah berikut:
 
-```
+```txt
 ng g c login
 ng g c todo
 ```
 
 Maka akan tercipta dua buah folder untuk komponen login dan todo.
 
-![todo](/todo/1.png)
-![todo](/todo/2.png)
+{{< figure src="/todo/1.png" width="70%" >}}
+{{< figure src="/todo/2.png" width="70%" >}}
 
 ### 2. Menginstall material desain
 
 Untuk membuat tampilan dari aplikasi, disini saya menggunakan material desain dari google. Untuk menggunakannya kita perlu menginstallnya dulu dengan perintah berikut.
 
-```
+```txt
 ng add @angular/material
 ```
 
@@ -116,7 +116,6 @@ Kemudian buka `app.module.ts` dan tambahkan module material desain yang sudah ki
 ```typescript
 ...
 ...
-
 // angular material design
 import { MaterialDesign } from './material/material';
 
@@ -290,7 +289,7 @@ export class LoginComponent implements OnInit {
 
 Sekarang tampilan halaman login menjadi seperti ini.
 
-![todo](/todo/3.png)
+{{< figure src="/todo/3.png" width="100%" >}}
 
 Kemudian kita lanjut mengatur tampilan halaman todo, buka `todo.component.html` kemudian tambahkan kode html berikut.
 
@@ -339,13 +338,13 @@ Jangan lupa tambahkan css pada `todo.component.css`
 
 Maka hasilnya akan seperti ini
 
-![todo](/todo/4.png)
+{{< figure src="/todo/4.png" width="100%" >}}
 
 Selanjutnya kita akan membuat dialog untuk menambahkan data / kegiatan. Saya menggunakan komponen dialog material desain.
 
 Sebelumnya buat dulu komponen baru untuk tambah data, ketikka perintah berikut.
 
-```
+```txt
 ng g c tambah-data
 ```
 
@@ -422,7 +421,7 @@ export class TodoComponent implements OnInit {
 
 Fungsi `buatKegiatan()` berfungsi untuk menampilkan dialog tambah-data yang sudah kita buat, sehingga tampilannya menjadi seperti ini.
 
-![todo](/todo/5.png)
+{{< figure src="/todo/5.png" width="100%" >}}
 
 > Tips : Jangan panik ketika ketemu error, tetap tenang, cari solusinya, di googling banyak tinggal ketik errornya nanti muncul tuh stackoverflow atau forum angular/Ci. Error mengajarkan kita untuk belajar memecahkan masalah.
 
@@ -446,11 +445,11 @@ Untuk lebih jelasnya saya pernah membuat video instalasi, bisa diliat pada [Cara
 
 Sebelumnya silahkan buat databasenya terlebih dahulu, disini saya membuat database dengan nama `rest_ci4` lalu di dalamnya saya buat sebuah tabel dengan nama `todo` yang memiliki 4 kolom(id[auto increment], judul, deskripsi, jadwal_selesai) jangan lupa juga untuk isi datanya.
 
-![todo](/todo/6.png)
+{{< figure src="/todo/6.png" width="100%" >}}
 
 Kemudian buka file `.env` dan cari bagian database lalu uncomment dan sesuaikan menjadi seperti ini.
 
-```
+```txt
 database.default.hostname = 127.0.0.1
 database.default.database = rest_ci4
 database.default.username = root
@@ -754,7 +753,7 @@ Jangan lupa untuk menjalankan server CI terlebih dahulu dengan perintah `php spa
 
 Kemudian tulisankan `localhost:8080/todo` dengan method GET, maka hasilnya akan seperti ini.
 
-![todo](/todo/7.png)
+{{< figure src="/todo/7.png" width="100%" >}}
 
 Bisa diliat bahwa data sudah bisa kita tampilkan dengan format JSON. Kita juga bisa melakukan create, update, dan delete data dengan mengganti methodnya dan sesuaikan url nya.
 
@@ -772,7 +771,7 @@ Karena kita masih menggunakan local server, maka perlu disediakan web server lok
 
 Kemudian pindahkan projek rest api yang sudah dibuat ke dalam folder `htdocs` di xampp kalian dan ganti namanya menjadi `rest-api` sehingga menjadi seperti ini.
 
-![todo](/todo/8.png)
+{{< figure src="/todo/8.png" width="100%" >}}
 
 Lalu tambahkan module http client ke dalam `app.module.ts`.
 
@@ -795,7 +794,7 @@ imports: [
 
 Selanjutnya buat api service pada angular dengan perintah berikut.
 
-```
+```txt
 ng g service api
 ```
 
@@ -855,7 +854,7 @@ fungsi `getData()` kita gunakan untuk mengambil atau membaca data dari api ke ap
 
 Jalankan aplikasi angular dengan perintah `ng s --o` kemudian cek konsole (f12) dan pada menu `network` kemudian `todo` dan seharusnya data sudah berhasil ditampilkan seperti berikut ini.
 
-![todo](/todo/9.png)
+{{< figure src="/todo/9.png" width="100%" >}}
 
 ### 16. Menampilkan data ke user interface
 
@@ -892,7 +891,7 @@ Buka file `todo.component.html` dan sesuaikan kode yang ada menjadi seperti beri
 
 Kita melakukan perulangan di dalam list item tersebut sehingga hasilnya menjadi seperti ini.
 
-![todo](/todo/10.png)
+{{< figure src="/todo/10.png" width="100%" >}}
 
 ### 17. Membuat fungsi insert data
 
@@ -1061,26 +1060,26 @@ Untuk hasilnya seperti berikut.
 
 Halaman login :
 
-![todo](/todo/11.png)
+{{< figure src="/todo/11.png" width="100%" >}}
 
 Ketika login berhasil masuk ke halaman todo yang membuat CRUD :
 
-![todo](/todo/12.png)
+{{< figure src="/todo/12.png" width="100%" >}}
 
 Tambah data :
 
-![todo](/todo/13.png)
+{{< figure src="/todo/13.png" width="100%" >}}
 
-![todo](/todo/14.png)
+{{< figure src="/todo/14.png" width="100%" >}}
 
 Edit data :
 
-![todo](/todo/15.png)
+{{< figure src="/todo/15.png" width="100%" >}}
 
 Hapus data :
 
-![todo](/todo/16.png)
+{{< figure src="/todo/16.png" width="100%" >}}
 
 > "The only way to learn a new programming language is by writing programs in it." 
 
-Source code : https://github.com/ahmadsufyan455/todoApp-angularCI
+Source code : [To Do App Github](https://github.com/ahmadsufyan455/todoApp-angularCI)

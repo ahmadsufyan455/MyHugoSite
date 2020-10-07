@@ -11,7 +11,7 @@ Kali ini saya akan mencoba menampilkan data covid-19 yang API nya kita ambil dar
 
 Disana terdapat beberapa endpoint yang bisa kita gunakan mulai dari data lokal hingga data global. Untuk tutorial ini saya menggunakan endpoint lokal yaitu `indonesia`
 
-![endpoint](/uploads/endpoint.JPG "endpoint")
+{{< figure src="/uploads/endpoint.JPG" width="100%" >}}
 
 Oke langsung saja kita coba..
 
@@ -236,4 +236,4 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 Maka hasil akhirnya seperti ini.
 
-![retrofit](/uploads/retrofit2.png "retrofit")
+{{< figure src="/uploads/retrofit2.png" width="50%" >}}

@@ -17,7 +17,7 @@ Soal competitive programming biasanya menggunakan bahasa inggris, jadi sedikit k
 
 Oke perhatikan soal berikut ini, color revolution.
 
-```
+```txt
 A. Color Revolution
 time limit per test: 1 second
 memory limit per test: 256 megabytes
@@ -43,7 +43,7 @@ Output
 For each testcase print four integers **_n1,n2,n3 and n4_** such that **_n2=k⋅n1, n3=k⋅n2, n4=k⋅n3 and n1+n2+n3+n4=n_**.
 
 example
-```
+```txt
 input
 4
 40 3
@@ -51,7 +51,7 @@ input
 320802005 400
 4 1
 ```
-```
+```txt
 output
 1 3 9 27
 3 21 147 1029
@@ -77,7 +77,7 @@ Algoritma adalah langkah-langkah untuk menyelesaikan sesuatu. Jadi sangat pentin
 
 Jadi setelah di analisis kita bisa menyusun algoritma seperti berikut.
 
-```
+```txt
 1. Masukkan nilai t untuk banyaknya percobaan
 2. Masukkan nilai n untuk total partisipan
 3. Masukkan nilai k untuk kelipatan n1
@@ -119,10 +119,10 @@ Setelah kita buat kode programnya, selanjutnya jalankan kode program tersebut. K
 
 berikut hasilnya :
 
-![result](/uploads/result.JPG "result")
+{{< figure src="/uploads/result.JPG" width="60%" >}}
 
 selanjutnya kita bisa submit kode program tersebut ke platform tempat competitive programming di adakan, seperti codeforces dan hasilnya akan di accepted kalau sudah sesuai.
 
-![colorevolution](/uploads/colorevolution.JPG "color revolution")
+{{< figure src="/uploads/colorevolution.JPG" width="100%" >}}
 
 Oke friend sekian dulu, nanti kita lanjutkan pembahasan mengenai soal-soal competitive programming lainnya, semoga bermanfaat.

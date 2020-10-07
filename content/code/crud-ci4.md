@@ -376,31 +376,31 @@ Berikut tampilan atau hasil akhir dari kodingan diatas.
 
 Login terlebih dahulu:
 
-![crud](/formloginci4/5.png)
+{{< figure src="/formloginci4/5.png" width="100%" >}}
 
 Tampilan halaman user ketika berhasil login dan menampilkan data user:
 
-![crud](/formloginci4/6.png)
+{{< figure src="/formloginci4/6.png" width="100%" >}}
 
 Ketika tombol tambah data di klik, akan mengarah ke halaman untuk menambah data user:
 
-![crud](/formloginci4/7.png)
+{{< figure src="/formloginci4/7.png" width="100%" >}}
 
 Kembali ke halaman user setelah tombol save di klik dan menampilkan data termasuk yang sudah ditambahkan:
 
-![crud](/formloginci4/8.png)
+{{< figure src="/formloginci4/8.png" width="100%" >}}
 
 Menampilkan dialog konfirmasi ketika tombol delete di klik untuk menghapus data:
 
-![crud](/formloginci4/9.png)
+{{< figure src="/formloginci4/9.png" width="100%" >}}
 
 Menampilkan halaman edit data ketika tombol edit di klik dan melakukan edit data pada form:
 
-![crud](/formloginci4/10.png)
+{{< figure src="/formloginci4/10.png" width="100%" >}}
 
 Tampilan ketika data sudah berhasil di edit:
 
-![crud](/formloginci4/11.png)
+{{< figure src="/formloginci4/11.png" width="100%" >}}
 
 ### Penutup
 

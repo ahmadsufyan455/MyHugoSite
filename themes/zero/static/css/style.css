@@ -1,0 +1,57 @@
+body {
+   background-color: #212121;
+   color: #E5E5E5;
+   font-size: 20px;
+}
+
+.jumbotron {
+   background-color: #212121;
+}
+
+h4.homePage {
+   padding-top: 20px;
+}
+
+#myPhoto {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+}
+
+#myPhoto2 {
+   width: 80px;
+   height: 80px;
+   object-fit: cover;
+}
+
+a {
+   text-decoration: underline;
+   color: #E5E5E5;
+}
+
+a:hover {
+   color: #c5c5c5;
+}
+
+#closing {
+   font-size: 18px;
+}
+
+hr {
+   border-color: #c5c5c5;
+}
+
+#txtFooter {
+   font-size: 14px;
+}
+
+@media (min-width: 992px) {
+   .container {
+      padding-left: 150px !important;
+      padding-right: 150px !important;
+   }
+
+   h4.homePage {
+      padding-top: 50px;
+   }
+}

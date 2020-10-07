@@ -19,6 +19,6 @@ fun main() {
 
 One day I want to be an expert in using kotlin as the main language in android application development.
 
-![kotlin](/uploads/helo-kotlin.png "kotlin")
+{{< figure src="/uploads/helo-kotlin.png" width="100%" >}}
 
 Stay Awesome and Keep Coding

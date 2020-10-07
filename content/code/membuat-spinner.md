@@ -91,6 +91,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 }
 ```
 
-![spinner](/uploads/spinner.png "spinner")
+{{< figure src="/uploads/spinner.png" width="30%" >}}
+
 
 Happy coding :)

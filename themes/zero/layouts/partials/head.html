@@ -1,0 +1,8 @@
+<title>{{ .Title }}</title>
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}" />
+{{ else if eq .Kind "section" }}
+<meta name="description" content="{{ .Summary }}" />
+{{ else }}
+<meta name="description" content="{{ .Site.Params.Description }}" />
+{{ end }}

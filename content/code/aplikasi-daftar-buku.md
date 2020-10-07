@@ -21,25 +21,25 @@ Let's get started...
 
 Kita akan membuat projek baru terlebih dahulu dengan nama `daftar-buku` dengan perintah berikut :
 
-```
+```txt
 ng new daftar-buku
 ```
 
 Setelah itu kita akan buat beberapa komponen lainnya seperti `buku`,`list-buku`, dan sebuah servis `books` untuk mengatur servis dari aplikasi yang akan kita buat. Masuk ke folder projek `cd daftar-buku` lalu ketikkan beberapa perintah berikut ini.
 
-```
+```txt
 ng g c buku
 ```
-```
+```txt
 ng g c list-buku
 ```
-```
+```txt
 ng g s shared/books
 ```
 
 Sehingga struktur folder kita akan menjadi seperti ini.
 
-![buku-alamat](/uploads/1.JPG "buku alamat")
+{{< figure src="/uploads/1.JPG" width="30%" >}}
 
 ### 2. Memasang UI bootstrap
 
@@ -47,7 +47,7 @@ Pada projek ini saya menggunakan framework bootstrap untuk mengatur tampilan hal
 
 Masuk ke halaman [Get Bootstrap](https://getbootstrap.com/) kemudian klik button **Get Started**, kemudian copy kode script **css** dan **js** dari bootstrap ke dalam `index.html` pada projek.
 
-![buku-alamat](/uploads/2.JPG "buku alamat")
+{{< figure src="/uploads/2.JPG" width="100%" >}}
 
 Sehingga `index.html` pada projek akan berubah seperti berikut.
 
@@ -77,7 +77,7 @@ Selain cara diatas, kita juga bisa memasang bootstrap secara offline. Untuk tuto
 
 Pertama kita akan memasang komponen navbar pada halaman. Masuk ke dokumentasi bootstrap, kemudian pada bagian *components* cari *navbar*, lalu pilih desain navbar sesuai selera kemudian copy kode htmlnya.
 
-![buku-alamat](/uploads/3.JPG "buku alamat")
+{{< figure src="/uploads/3.JPG" width="100%" >}}
 
 Setelah itu masuk ke `app.component.html` kemudian paste kode navbar tadi dan juga tambahkan selector `<app-buku></app-buku>` dibawahnya untuk menampilkan halaman dari `buku.component.html`, sehingga `app.component.html` menjadi seperti berikut.
 
@@ -203,7 +203,7 @@ Kemudian di dalam body *modal* kita tambahkan *form-group* untuk menginput data,
 
 Dan sekarang tampilan halaman kita untuk sementara adalah seperti ini.
 
-![buku-alamat](/uploads/4.JPG "buku alamat")
+{{< figure src="/uploads/4.JPG" width="100%" >}}
 
 ### 4. Mengatur form
 
@@ -338,41 +338,41 @@ Lalu pada inputan *judulBuku* kita menambahkan kode untuk melakukan validasi seh
 
 Pertama lakukan installasi firebase ke projek angular, ketikkan perintah berikut.
 
-```
+```txt
 npm install --save firebase angularfire2
 ```
 
 Setelah installasi selesai maka akan terbentuk sebuah file environments yang di dalamnya terdapat `environment.ts` dan `environment.prod.ts`, namun yang akan kita gunakan adalah file `environment.ts`.
 
-![buku-alamat](/uploads/5.JPG "buku alamat")
+{{< figure src="/uploads/5.JPG" width="50%" >}}
 
 Setelah itu masuk ke firebase console atau bisa klik link https://console.firebase.google.com/
 
 Kemudian klik tambah projek.
 
-![buku-alamat](/uploads/6.JPG "buku alamat")
+{{< figure src="/uploads/6.JPG" width="100%" >}}
 
 Lalu isikan nama projek firebase kita, misalkan disini saya menggunakan *DaftarBuku* sebagai nama projek, klik lanjutkan.
 
-![buku-alamat](/uploads/7.JPG "buku alamat")
+{{< figure src="/uploads/7.JPG" width="100%" >}}
 
 Selanjutnya matikan google analytics untuk projek dan klik buat projek.
 
-![buku-alamat](/uploads/8.JPG "buku alamat")
+{{< figure src="/uploads/8.JPG" width="100%" >}}
 
 Tunggu beberapa saat proses pembuatan projek selesai. Kalau sudah siap, klik lanjutkan.
 
 Maka akan tampil halaman awal dari firebase console. Disana terdapat beberapa opsi untuk jenis projek yang akan dibuat menggunakan firebase yaitu ada iOS, Android, dan Web. Karena kita menggunakan angular maka kita pilih yang web.
 
-![buku-alamat](/uploads/9.JPG "buku alamat")
+{{< figure src="/uploads/9.JPG" width="100%" >}}
 
 Kemudian isikan nama aplikasi. Disini saya menggunakan nama *DaftarBuku* sebagai nama aplikasi. Selanjutnya klik **Daftarkan aplikasi**
 
-![buku-alamat](/uploads/10.JPG "buku alamat")
+{{< figure src="/uploads/10.JPG" width="100%" >}}
 
 Maka akan terdapat script yang di dalamnya ada *apiKey* dari aplikasi yang kita daftarkan.
 
-![buku-alamat](/uploads/11.JPG "buku alamat")
+{{< figure src="/uploads/11.JPG" width="100%" >}}
 
 Copy objek *firebaseConfig* beserta isinya tersebut ke dalam `environment.ts` sehingga kode di dalam `environment.ts` menjadi seperti ini.
 
@@ -394,11 +394,11 @@ export const environment = {
 
 Kemudian kembali lagi ke halaman firebase console klik menu **database** dan **Buat Database**.
 
-![buku-alamat](/uploads/12.JPG "buku alamat")
+{{< figure src="/uploads/12.JPG" width="100%" >}}
 
 Lalu pilih *mode pengujian* dan klik **aktifkan**.
 
-![buku-alamat](/uploads/13.JPG "buku alamat")
+{{< figure src="/uploads/13.JPG" width="100%" >}}
 
 Apabila kita klik menu *aturan* maka akan terdapat kode berikut.
 
@@ -596,13 +596,13 @@ formControls = this.booksService.form.controls;
 
 Oke sekarang kita coba inputkan data buku ke dalam form. Jalankan projeknya `ng s --o` kemudian masukkan data seperti berikut.
 
-![buku-alamat](/uploads/14.JPG "buku alamat")
+{{< figure src="/uploads/14.JPG" width="60%" >}}
 
 Kemudian klik button simpan.
 
 Selanjutnya cek di realtime database pada firebase console dan pastikan data yang sudah kita inputkan tadi sudah masuk seperti ini.
 
-![buku-alamat](/uploads/15.JPG "buku alamat")
+{{< figure src="/uploads/15.JPG" width="80%" >}}
 
 ### 7. Menampilkan data ke dalam interface
 
@@ -674,7 +674,7 @@ Sekarang buka `list-buku.component.html` tambahkan komponen table pada file ters
 ```
 Maka hasilnya akan seperti berikut.
 
-![buku-alamat](/uploads/16.JPG "buku alamat")
+{{< figure src="/uploads/16.JPG" width="100%" >}}
 
 ### 8. Membuat fungsi edit data
 
@@ -734,11 +734,11 @@ Fungsi tersebut akan melakukan update terhadap data dengan key yang sudah ada.
 
 Setelah itu kita bisa coba untuk melakukan edit/update data. Klik tombol edit dan edit datanya misalkan disini saya mengubah tahun.
 
-![buku-alamat](/uploads/17.JPG "buku alamat")
+{{< figure src="/uploads/17.JPG" width="60%" >}}
 
 Maka hasilnya akan terupdate seperti ini.
 
-![buku-alamat](/uploads/18.JPG "buku alamat")
+{{< figure src="/uploads/18.JPG" width="100%" >}}
 
 ### 9. Menghapus data
 
@@ -794,10 +794,10 @@ Oke sekarang tinggal kita coba, silahkan klik tombol hapus untuk menghapus data.
 
 Oke sekarang kita sudah berhasil membuat aplikasi daftar buku sederhana menggunakan angular dan firebase yang tampilan dan hasil akhirnya seperti ini.
 
-![buku-alamat](/uploads/19.JPG "buku alamat")
+{{< figure src="/uploads/19.JPG" width="100%" >}}
 
 Semoga dapat menjadi referensi. Selanjutnya silahkan dimodif dan berkreasi tanpa batas, sekian dan terima kasih **salam begadang**.
 
 Thanks to **StackOverflow**
 
-Source codenya bisa dilihat di: https://github.com/ahmadsufyan455/aplikasi-daftar-buku
+Source codenya bisa dilihat di: [Aplikasi Daftar Buku Github](https://github.com/ahmadsufyan455/aplikasi-daftar-buku)

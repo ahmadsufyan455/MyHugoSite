@@ -20,7 +20,7 @@ Untuk membuat database jangan lupa nyalakan web server dalam hal ini kita gunaka
 
 Disini saya membuat database `praktikum` kemudian di dalamnya ada tabel `user` seperti berikut.
 
-![database](/formloginci4/1.png)
+{{< figure src="/formloginci4/1.png" width="100%" >}}
 
 Yang akan digunakan login adalah field `user_email` dan `user_pass`.
 
@@ -276,14 +276,14 @@ class User extends BaseController
 
 Tampilan dari user form adalah seperti ini
 
-![form](/formloginci4/4.png)
+{{< figure src="/formloginci4/4.png" width="100%" >}}
 
 Kemudian bila user memasukkan email atau password salah maka akan muncul warning
 
-![form](/formloginci4/3.png)
+{{< figure src="/formloginci4/3.png" width="100%" >}}
 
 Dan apabila user berhasil login makan akan redirect ke halaman user
  
-![form](/formloginci4/2.png)
+{{< figure src="/formloginci4/2.png" width="100%" >}}
 
 Sekian dan terima kasih.

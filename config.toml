@@ -1,106 +1,24 @@
 baseurl = "/"
-languageCode = "en"
+languageCode = "en-us"
 title = "Ahmad Sufyan"
-theme = "sohohugothemes"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-summarylength = 10
-enableEmoji = true
-paginate = 5
-
-# Google Analytics
-googleAnalytics = "UA-163996782-1"
-
-# Enable Disqus
-#disqusShortname = ""
-
+theme = "zero"
 [params]
-title = "Ahmad Sufyan"
-description = "Perjalanan Belajar"
-# gravatar = "soho@example.com"
-images = ["avatar/fyn.jpg"]
-profilePicture = "avatar/fyn.jpg"
-copyright = "Ahmad Sufyan"
-# license = "CC BY-SA 4.0"
-# licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
-builtWith = false
-mainSections = ["post"]
-
-## Set custom theme color.
-themeColor = "#1a6996"
-
-  [[params.socialIcons]]
-  icon = "fa-youtube"
-  title = "Youtube"
-  url = "https://www.youtube.com/channel/UCw-os_0NNQy-4y-z4qCEPSA"
-
-  [[params.socialIcons]]
-  icon = "fa-github"
-  title = "GitHub"
-  url = "https://github.com/ahmadsufyan455"
-
-  [[params.socialIcons]]
-  icon = "fa-instagram"
-  title = "Instagram"
-  url = "https://www.instagram.com/fyann__/"
-
-  [[params.socialIcons]]
-  icon = "fa-linkedin"
-  title = "Linkedin"
-  url = "https://www.linkedin.com/in/ahmadsufyan455/"
-  
-[taxonomies]
-  series = "series"
-  category = "categories"
-  tag = "tags"
-
-[menu]
-
-  # [[menu.main]]
-  # name = "Posts"
-  # weight = 100
-  # identifier = "posts"
-  # url = "/posts/"
-
-  [[menu.main]]
-  name = "Code"
-  weight = 200
-  identifier = "code"
-  url = "/categories/code/"
-
-  [[menu.main]]
-  name = "Linux"
-  weight = 200
-  identifier = "linux"
-  url = "/categories/linux/"
-
-  [[menu.main]]
-  name = "Coretan"
-  weight = 200
-  identifier = "coretan"
-  url = "/categories/coretan/"
-
-  # [[menu.main]]
-  # name = "About"
-  # identifier = "about"
-  # weight = 10
-  # url = "/about/"
-
-  # [[menu.main]]
-  # name = "Contact"
-  # identifier = "contact"
-  # weight = 20
-  # url = "/contact/"
+   Description = "Perjalanan Belajar"
+[permalinks]
+   catatan = ":slug"
+   code = ":slug"
+   linux = ":slug"
 
 [markup]
-
   [markup.highlight]
-  codeFences = true
-  guessSyntax = false
-  hl_Lines = ""
-  lineNoStart = 1
-  lineNos = false
-  lineNumbersInTable = true
-  noClasses = true
-  style = "dracula"
-  tabWidth = 4
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4

@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<h2><a href="/catatan">Catatan</a></h2>
+<ul>
+   {{ range first 5 (where .Site.RegularPages "Section" "catatan") }}
+   <li>
+      <a href="{{.Permalink}}"> {{.Title}}</a>
+   </li>
+   {{ end }}
+</ul>
+
+<h2><a href="/code">Code</a></h2>
+<ul>
+   {{ range first 5 (where .Site.RegularPages "Section" "code") }}
+   <li>
+      <a href="{{.Permalink}}"> {{.Title}}</a>
+   </li>
+   {{ end }}
+</ul>
+
+<h2><a href="/linux">Linux</a></h2>
+<ul>
+   {{ range first 5 (where .Site.RegularPages "Section" "linux") }}
+   <li>
+      <a href="{{.Permalink}}"> {{.Title}}</a>
+   </li>
+   {{ end }}
+</ul>
+{{ end }}

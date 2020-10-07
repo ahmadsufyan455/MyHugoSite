@@ -6,9 +6,9 @@ draft: false
 categories: [coretan]
 ---
 
-![computational thinking](/uploads/comthink.jpg "computational thinking")
+{{< figure src="/uploads/comthink.jpg" width="100%" >}}
 
-## Jadi apa itu computational thinking ?
+### Jadi apa itu computational thinking ?
 
 Computational thinking atau berpikir secara komputasi adalah suatu kemampuan untuk menyelesaikan masalah secara menyeluruh, logis, dan sistematis. Untuk dapat berpikir secara komputasi ada empat tahapan yang perlu kita lakukan sebagai berikut.
 
