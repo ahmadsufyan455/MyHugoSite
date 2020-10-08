@@ -1,5 +1,6 @@
 ---
 title: "Flash Hp Xiaomi Menggunakan Linux"
+slug: "flashing"
 date: 2020-10-09T05:46:31+07:00
 draft: false
 ---
