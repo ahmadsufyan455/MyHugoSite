@@ -9,7 +9,7 @@ Hello there, in this article I will gonna show you how to implement rounded tabl
 
 Oke let's start..
 
-First, you need to create tablayout with viewpager. I have written article in this link ([Setup TabLayout With ViewPager](https://ahmadsufyan.my.id/post/tablayout-viewpager/))
+First, you need to create tablayout with viewpager. I have written article in this link ([Setup TabLayout With ViewPager](https://ahmadsufyan.my.id/code/tablayout-viewpager/))
 
 Then you need to create three drawable resources file like *selected_tab*, *unselected_tab*, and *selector_tab*.
 

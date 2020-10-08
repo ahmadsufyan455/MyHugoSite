@@ -6,9 +6,9 @@ draft: false
 categories: [code]
 ---
 
-Ketika kita ingin mengambil data dari API di android kita bisa menggunakan beberapa cara, salah satunya adalah dengan library retrofit. Cara penggunaannya pun sudah sempat saya tulis di link berikut, [Consume API Menggunakan Retrofit](https://ahmadsufyan.my.id/post/belajar-retrofit/). Ketika kita menggunakan retrofit kita memerlukan sebuah callback.
+Ketika kita ingin mengambil data dari API di android kita bisa menggunakan beberapa cara, salah satunya adalah dengan library retrofit. Cara penggunaannya pun sudah sempat saya tulis di link berikut, [Consume API Menggunakan Retrofit](https://ahmadsufyan.my.id/code/belajar-retrofit/). Ketika kita menggunakan retrofit kita memerlukan sebuah callback.
 
-Namun yang spesial di kotlin kita bisa menggabungkan antara [coroutines](https://ahmadsufyan.my.id/post/coroutines/) dan retrofit sehingga kita tidak memerlukan callback dan kode yang ditulis pun menjadi lebih ringkas.
+Namun yang spesial di kotlin kita bisa menggabungkan antara [coroutines](https://ahmadsufyan.my.id/code/coroutines/) dan retrofit sehingga kita tidak memerlukan callback dan kode yang ditulis pun menjadi lebih ringkas.
 
 Seperti biasa kita bisa tentukan dulu endpoint yang akan digunakan. Disinilah bedanya, terlihat bahwa kode dibawah menggunakan suspend function dan kita tidak menggunakan Call lagi untuk memanggil data classnya.
 
