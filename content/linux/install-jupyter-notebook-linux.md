@@ -1,5 +1,6 @@
 ---
 title: "Install Jupyter Notebook Di Linux Ubuntu"
+slug: "jupyter-notebook"
 description: "Cara menginstall jupyter notebook di linux ubuntu melalui terminal"
 date: 2020-06-21T13:09:50+07:00
 draft: false

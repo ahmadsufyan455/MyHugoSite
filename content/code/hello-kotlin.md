@@ -1,5 +1,6 @@
 ---
 title: "Hello Kotlin"
+slug: "kotlin"
 date: 2020-02-15T07:39:32+07:00
 draft: false
 categories: [kotlin, android]

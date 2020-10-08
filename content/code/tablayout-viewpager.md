@@ -1,5 +1,6 @@
 ---
 title: "Setup Tablayout With Viewpager"
+slug: "viewpager"
 date: 2020-06-26T12:58:28+07:00
 draft: false
 categories: [code, android, kotlin]

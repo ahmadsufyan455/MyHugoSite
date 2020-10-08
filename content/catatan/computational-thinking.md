@@ -1,5 +1,6 @@
 ---
 title: "Computational Thinking"
+slug: "computational-thinking"
 description: "Bagaimana berpikir secara komputasi ?"
 date: 2020-08-08T15:08:51+07:00
 draft: false

@@ -3,6 +3,7 @@ title: "Flash Hp Xiaomi Menggunakan Linux"
 slug: "flashing"
 date: 2020-10-09T05:46:31+07:00
 draft: false
+categories: [linux, android]
 ---
 
 Kalau biasanya kita menggunakan Mi Flash di windows untuk melakukan flashing pada hp xiaomi, maka di linux pun kita juga bisa melakukan flashing bahkan secara mudah dan jauh lebih cepat dengan perintah-perintah pada terminal. Cara ini menurut saya berlaku untuk semua jenis hp xiaomi yang ingin di flash/install ulang. Oke langsung saja berikut langkah-langkahnya.

@@ -1,5 +1,6 @@
 ---
 title: "Consume API Menggunakan Retrofit"
+slug: "retrofit"
 date: 2020-05-18T19:11:56+07:00
 draft: false
 categories: [code,android]

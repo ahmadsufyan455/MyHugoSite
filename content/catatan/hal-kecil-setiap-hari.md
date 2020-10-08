@@ -1,5 +1,6 @@
 ---
 title: "Hal Kecil Setiap Hari"
+slug: "kecil-setiap-hari"
 date: 2020-02-28T09:12:11+07:00
 draft: false
 categories: [coretan]

@@ -1,5 +1,6 @@
 ---
 title: "Seni Menikmati Proses"
+slug: "proses"
 date: 2020-07-16T22:39:22+07:00
 draft: false
 categories: [coretan]

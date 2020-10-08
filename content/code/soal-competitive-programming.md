@@ -1,5 +1,6 @@
 ---
 title: "Kotlin Heroes Episode 4 : Problem A Color Revolution"
+slug: "competitive-programming"
 date: 2020-05-31T12:34:48+07:00
 draft: false
 categories: [code, Kotlin, competitiveProgramming]

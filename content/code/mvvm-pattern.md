@@ -1,5 +1,6 @@
 ---
 title: "Android MVVM Design Pattern"
+slug: "mvvm"
 description: "Architecture Component - MVVM Design Pattern"
 date: 2020-08-19T18:06:41+07:00
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Membuat Aplikasi Daftar Buku Menggunakan Angular & Firebase"
+slug: "aplikasi-daftar-buku"
 date: 2020-05-05T16:03:33+07:00
 draft: false
 categories: [code, webApp]

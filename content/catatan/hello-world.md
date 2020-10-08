@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+slug: "hello"
 date: 2020-02-10T16:33:11+07:00
 draft: false
 ---

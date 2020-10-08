@@ -1,5 +1,6 @@
 ---
 title: "Susah Untuk Konsisten"
+slug: "konsisten"
 date: 2020-02-28T09:18:15+07:00
 draft: false
 categories: [coretan]

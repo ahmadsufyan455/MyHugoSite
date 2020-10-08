@@ -1,5 +1,6 @@
 ---
 title: "Membuat Spinner Pada Projek Android Studio"
+slug: "spinner"
 date: 2020-02-10T16:43:25+07:00
 draft: false
 author: "Ahmad Sufyan"

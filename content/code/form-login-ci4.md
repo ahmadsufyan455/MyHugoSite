@@ -1,5 +1,6 @@
 ---
 title: "Membuat Form Login Dengan Codeigniter 4"
+slug: "form-login-ci4"
 description: "Form login codeigniter 4 dengan otentikasi"
 date: 2020-07-04T14:26:44+07:00
 draft: false

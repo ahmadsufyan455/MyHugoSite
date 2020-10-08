@@ -1,5 +1,6 @@
 ---
 title: "Create TodoApp Using Angular And Codeigniter (Include CRUD)"
+slug: "todoapp-angular-ci"
 date: 2020-07-25T13:15:11+07:00
 draft: false
 categories: [code, webApp]

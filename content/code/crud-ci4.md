@@ -1,12 +1,13 @@
 ---
 title: "Membuat Operasi CRUD Dengan CodeIgniter 4"
+slug: "crud-ci4"
 description: "Membuat operasi crud dengan codeigniter 4 dengan sistem login"
 date: 2020-07-12T19:37:24+07:00
 draft: false
 categories: [code, webApp]
 ---
 
-Setelah sebelumnya kita membuat [form login dengan CI 4](https://ahmadsufyan.my.id/code/form-login-ci4/), sekarang kita akan lanjutkan untuk membuat halaman user yang di dalamnya memuat CRUD(Create, Read, Update, Delete). Kita akan menggunakan database yang sebelumnya sudah kita buat di tutorial form login. Untuk tampilan dari halaman user akan memuat tombol untuk tambah data, edit, delete, dan logout, kemudian apabila tombol delete di klik akan menampilkan dialog konfirmasi sebelum data dihapus.
+Setelah sebelumnya kita membuat [form login dengan CI 4](https://ahmadsufyan.my.id/form-login-ci4/), sekarang kita akan lanjutkan untuk membuat halaman user yang di dalamnya memuat CRUD(Create, Read, Update, Delete). Kita akan menggunakan database yang sebelumnya sudah kita buat di tutorial form login. Untuk tampilan dari halaman user akan memuat tombol untuk tambah data, edit, delete, dan logout, kemudian apabila tombol delete di klik akan menampilkan dialog konfirmasi sebelum data dihapus.
 
 Oke, let's get started...
 

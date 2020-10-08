@@ -1,5 +1,6 @@
 ---
 title: "Kotlin Coroutines"
+slug: "coroutines"
 date: 2020-09-11T09:44:54+07:00
 draft: false
 categories: [code]

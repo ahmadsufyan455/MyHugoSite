@@ -1,5 +1,6 @@
 ---
 title: "Abstrak Kelas"
+slug: "abstract-class"
 date: 2020-05-13T23:55:42+07:00
 draft: false
 categories: [code]

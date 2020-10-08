@@ -1,5 +1,6 @@
 ---
 title: "Do It Yourself"
+slug: "diy"
 description: "Do it yourself, explore creativity"
 date: 2020-09-03T18:16:05+07:00
 draft: false

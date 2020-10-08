@@ -1,5 +1,6 @@
 ---
 title: "Teknik Pomodoro"
+slug: "pomodoro"
 date: 2020-08-25T05:53:05+07:00
 draft: false
 categories: [coretan]

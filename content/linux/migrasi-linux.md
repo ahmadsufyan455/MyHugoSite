@@ -1,5 +1,6 @@
 ---
 title: "Migrasi Ke Linux"
+slug: "migrasi-linux"
 date: 2020-06-15T21:27:06+07:00
 draft: false
 categories: [ubuntu, OS, linux]

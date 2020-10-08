@@ -1,5 +1,6 @@
 ---
 title: "Berkarya Setiap Hari"
+slug: "berkarya"
 date: 2020-02-11T00:17:09+07:00
 draft: false
 categories: [coretan]

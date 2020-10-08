@@ -1,5 +1,6 @@
 ---
 title: "Interface"
+slug: "interface"
 date: 2020-05-13T23:56:01+07:00
 draft: false
 categories: [code]

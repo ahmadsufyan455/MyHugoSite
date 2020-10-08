@@ -4,10 +4,10 @@ title = "Ahmad Sufyan"
 theme = "zero"
 [params]
    Description = "Perjalanan Belajar"
-# [permalinks]
-#    catatan = ":slug"
-#    code = ":slug"
-#    linux = ":slug"
+[permalinks]
+   catatan = ":slug"
+   code = ":slug"
+   linux = ":slug"
 
 [markup]
   [markup.highlight]
