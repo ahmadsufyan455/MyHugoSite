@@ -9,6 +9,9 @@ theme = "zero"
    code = ":slug"
    linux = ":slug"
 
+# Google Analytics
+googleAnalytics = "UA-163996782-1"
+
 [markup]
   [markup.highlight]
     anchorLineNos = false
