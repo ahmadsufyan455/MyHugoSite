@@ -78,4 +78,12 @@ class AmazingFragment : Fragment() {
 }
 ```
 
+Kemudian jangan lupa untuk melakukan onDestroy supaya tidak menyebabkan memory leak.
+
+```java
+override fun onDestroyView() {
+    binding = null
+}
+```
+
 Itulah cara penerapan data binding pada activity dan fragment, semoga bermanfaat.
