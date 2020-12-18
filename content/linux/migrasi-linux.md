@@ -139,5 +139,11 @@ $ sudo apt-get install gnome-software
 alt + f2
 xkill
 ```
+#### Mengatasi mic headset tidak berfungsi
 
+Buka file `alsa-base.conf` yang ada di direktori *etc/modprobe.d/alsa-base.conf* (buka pake vs code/text editor) kemudian tambahkan perintah berikut pada baris ke-44.
+
+```
+options snd-hda-intel model=dell-headset-multi
+```
 Next bakal di update lagi apabila ada problem dan ilmu baru.
