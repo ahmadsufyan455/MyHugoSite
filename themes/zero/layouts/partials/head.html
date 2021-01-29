@@ -6,3 +6,6 @@
 {{ else }}
 <meta name="description" content="{{ .Site.Params.Description }}" />
 {{ end }}
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
