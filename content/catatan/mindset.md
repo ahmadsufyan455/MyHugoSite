@@ -3,6 +3,7 @@ title: "Fixed Mindset Vs Growth Mindset"
 slug: "mindset"
 date: 2021-02-07T21:19:44+07:00
 draft: false
+categories: [coretan]
 ---
 
 Keberhasilan dan kesuksesan seringkali ditentukan oleh mindset kita. Yup, kekuatan mindset atau pola pikir tidak bisa dianggap remeh karena mindset menentukan tujuan dan arah kita dalam melangkah.
