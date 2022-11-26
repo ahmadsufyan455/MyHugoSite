@@ -1,6 +1,6 @@
 ---
 title: "Life After Bangkit"
-slug: "bangkit"
+slug: "bangkit-academy"
 date: 2022-11-26T12:07:45+07:00
 draft: false
 categories: [coretan]
