@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h3><a href="/catatan">Catatan</a></h3>
+<h5><a href="/catatan">Catatan</a></h5>
 <ul class="articles">
    {{ range first 5 (where .Site.RegularPages "Section" "catatan") }}
    <li>
@@ -9,7 +9,7 @@
    {{ end }}
 </ul>
 
-<h3><a href="/code">Code</a></h3>
+<h5><a href="/code">Code</a></h5>
 <ul class="articles">
    {{ range first 5 (where .Site.RegularPages "Section" "code") }}
    <li>
