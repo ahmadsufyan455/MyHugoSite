@@ -1,11 +1,13 @@
 body {
-   background-color: #212121;
+   background-color: #191919;
    color: #E5E5E5;
    font-size: 18px;
+   max-width: 900px;
+   margin: 0 auto;
 }
 
 .jumbotron {
-   background-color: #212121;
+   background-color: #191919;
 }
 
 h4.homePage {
@@ -26,6 +28,10 @@ h4.homePage {
 
 p.lead {
    font-size: 16px;
+}
+
+.text-content {
+   line-height: 32px;
 }
 
 a {
