@@ -1,28 +1,19 @@
 {{ define "main" }}
 
 <h3><a href="/catatan">Catatan</a></h3>
-<ul>
-   {{ range (where .Site.RegularPages "Section" "catatan") }}
+<ul class="articles">
+   {{ range first 5 (where .Site.RegularPages "Section" "catatan") }}
    <li>
-      <a href="{{.Permalink}}"> {{.Title}}</a>
+      <a href="{{.Permalink}}">📝 {{.Title}}</a>
    </li>
    {{ end }}
 </ul>
 
 <h3><a href="/code">Code</a></h3>
-<ul>
+<ul class="articles">
    {{ range first 5 (where .Site.RegularPages "Section" "code") }}
    <li>
-      <a href="{{.Permalink}}"> {{.Title}}</a>
-   </li>
-   {{ end }}
-</ul>
-
-<h3><a href="/linux">Linux</a></h3>
-<ul>
-   {{ range first 5 (where .Site.RegularPages "Section" "linux") }}
-   <li>
-      <a href="{{.Permalink}}"> {{.Title}}</a>
+      <a href="{{.Permalink}}">🧑🏻‍💻 {{.Title}}</a>
    </li>
    {{ end }}
 </ul>

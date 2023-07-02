@@ -26,6 +26,11 @@ h4.homePage {
    object-fit: cover;
 }
 
+.articles {
+   list-style-type: none;
+   line-height: 2.0;
+}
+
 p.lead {
    font-size: 16px;
 }
