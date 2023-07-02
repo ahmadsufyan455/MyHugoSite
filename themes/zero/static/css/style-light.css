@@ -1,0 +1,75 @@
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 18px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h4.homePage {
+    padding-top: 20px;
+}
+
+#myPhoto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#myPhoto2 {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.articles {
+    list-style-type: none;
+    line-height: 2.0;
+}
+
+p.lead {
+    font-size: 16px;
+}
+
+.text-content {
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #666666;
+}
+
+#closing {
+    font-size: 16px;
+}
+
+hr {
+    border-color: #666666;
+}
+
+#txtFooter {
+    font-size: 14px;
+}
+
+/* responsive screen */
+@media (min-width: 992px) {
+    .container {
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+    }
+
+    h4.homePage {
+        padding-top: 50px;
+    }
+}
+
+/* syntax highlighting */
+pre {
+    border-radius: 10px;
+    padding: 15px;
+}
