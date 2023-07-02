@@ -4,7 +4,7 @@
 <ul class="articles">
    {{ range first 5 (where .Site.RegularPages "Section" "catatan") }}
    <li>
-      <a href="{{.Permalink}}">📝 {{.Title}}</a>
+      <a href="{{.Permalink}}">✏️ {{.Title}}</a>
    </li>
    {{ end }}
 </ul>
