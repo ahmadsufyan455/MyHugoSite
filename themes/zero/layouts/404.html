@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <main id="main">
+    <div class="pt-5" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <div id="lottie-container" style="width: 250px; height: 250px;"></div>
+        <p>Oops! bukan akhir dari cerita, hanya bab yang belum ditulis 😕, Bersiaplah untuk petualangan baru. 👇🏻</p>
+        <p><a style="color: #6de7b7;" href="{{ "" | relURL }}">Go Home</a></p>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.12/lottie.min.js"></script>
+  <script>
+    var animationData = {
+      container: document.getElementById('lottie-container'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: '/assets/404.json'
+    };
+    
+    var animation = lottie.loadAnimation(animationData);
+  </script>
+{{ end }}
