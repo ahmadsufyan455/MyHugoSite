@@ -1,6 +1,6 @@
 ---
 title: "Tidak Seseram Yang Kita Bayangkan"
-slug: "tidak-seram"
+slug: "seram"
 date: 2023-07-14T17:36:35+07:00
 draft: false
 ---
