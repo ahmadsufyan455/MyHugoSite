@@ -1,6 +1,6 @@
 ---
 title: "Perjalan Menjadi Associate Android Developer"
-slug: ""
+slug: "android-developer"
 date: 2023-07-12T21:40:26+07:00
 draft: false
 ---
