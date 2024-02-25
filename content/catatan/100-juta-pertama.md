@@ -2,7 +2,7 @@
 title: "100 Juta Pertama"
 slug: "100-juta-pertama"
 date: 2024-01-30T13:30:06+07:00
-draft: true
+draft: false
 ---
 
 Hai, pada kesempatan kali ini aku mau share pengalaman mencapai 100 juta pertamaku. Oiya pencapaian ini diraih ketika aku bekerja sebagai software engineer dan freelancer. Awalnya aku tidak menyangka juga sampai pada titik ini. Kalau dipikir-pikir dulu ketika masih kuliah aku sempat merasa khawatir akan masa depan mau jadi seperti apa dan kerjanya ngapain aja, karena memang pas kuliah aku tidak begitu banyak terlibat dalam kegiatan kampus seperti organisasi, magang, ikut proyek dosen, dan lain-lain jadi pengalamanku sangat kurang. Pada saat kuliah pun aku cuman mahasiswa biasa aja pada umumnya tidak terlalu menonjol juga. Tapi ada satu hal yang cukup membuatku tertarik mempelajari dan mendalaminya waktu itu, yaitu pengembangan aplikasi mobile, yup cuma itu aja. Walaupun materinya tidak diajarkan di kuliah, namun aku sendiri memutuskan untuk belajar diluar kampus kayak ikut course, liat tutorial youtube, dan baca-baca artikel.
