@@ -2,19 +2,19 @@
 
 <h5><a href="/catatan">Catatan</a></h5>
 <ul class="articles">
-   {{ range first 5 (where .Site.RegularPages "Section" "catatan") }}
-   <li>
-      <a href="{{.Permalink}}">✏️ {{.Title}}</a>
-   </li>
-   {{ end }}
+  {{ range first 10 (where .Site.RegularPages "Section" "catatan") }}
+  <li>
+    <a href="{{.Permalink}}">✏️ {{.Title}}</a>
+  </li>
+  {{ end }}
 </ul>
 
-<h5><a href="/code">Code</a></h5>
+<!-- <h5><a href="/code">Code</a></h5>
 <ul class="articles">
    {{ range first 5 (where .Site.RegularPages "Section" "code") }}
    <li>
       <a href="{{.Permalink}}">🧑🏻‍💻 {{.Title}}</a>
    </li>
    {{ end }}
-</ul>
+</ul> -->
 {{ end }}
